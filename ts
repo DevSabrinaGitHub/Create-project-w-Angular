@@ -9,7 +9,7 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 
-//contenido de la pagina
+//contenido de ts
 export class AppComponent {
   title = 'spotify';
 
