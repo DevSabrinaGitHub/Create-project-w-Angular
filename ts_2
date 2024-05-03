@@ -19,9 +19,23 @@ car: carModel = {
   modelo: "focus",
   year: 2020
 }
-  //crear un array con una lista o muchos datos
+  //crear un array siguiendo la estructura con el mismo nombre del objeto
+  listcar: Array <carModel > = [
 
-  listcar: Array <any> = [
+  //pasamos los datos a nuestro array
+  {
+    marca: "toyota",
+    modelo: "corolla",
+    year: 2018
+  },
+
+  //podemos añadir mas datos
+  {
+    marca: "volkswagen",
+    modelo: "bora",
+    year: 2020
+  }
+]
 }
 
 // en ts una interface es una forma de definir la estructura de un objeto. 
