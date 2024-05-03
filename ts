@@ -25,26 +25,12 @@ export class AppComponent {
 
 
 //crear objeto con any
-//car: any = {
- // marca: "ford",
-//  modelo: "focus",
-//  year: 2020
-//}
-
-
-//objeto nuevo
-car: carModel = {
-  marca: "ford",
+car: any = {
+ marca: "ford",
   modelo: "focus",
   year: 2020
 }
 }
 
-// en ts una interface es una forma de definir la estructura de un objeto. 
-// interfaz establece qué propiedades y métodos debe tener un objeto para cumplir con ciertas expectativas, especificando su tipo de dato/accion
-//la interface debe cumplir con el objeto que creamos anteriormente, no puede ser any, debe contener el mismo nombre que la interface
-interface carModel{
-  marca: string;
-  modelo: string;
-  year: number;
-}
+
+
