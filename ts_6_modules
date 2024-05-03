@@ -1,0 +1,7 @@
+// los modulos contendran todas las carpetas que crearemos: pueden contener: auth, routes, components, services, pipes, etc.
+
+//crear un modulo en terminal: ng generate module nombrearchivo/nombredelacarpeta --routing
+//ej: ng generate module  modules/Auth --routing
+// o podemos tambien: ng g m modules/Auth --routing
+
+
