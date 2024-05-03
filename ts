@@ -21,6 +21,10 @@ export class AppComponent {
   //tipo de dato any (puede contener lo que queremos, cualquier tipo de dato)
   //puede ser una funcion, objeto, string, cualquier tipo de dato/accion
   dato: any;
+
+  //CREAR UN ARRAY:
+  //crear un array con muchos datos de tipo any (cualquier dato)
+  listcar: Array <any> = [1, "auto1", puedeser_un_objeto, funcion, etc]
 }
 
 
