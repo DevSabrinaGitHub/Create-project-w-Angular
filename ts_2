@@ -1,0 +1,33 @@
+import { Component } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+
+@Component({
+  selector: 'app-root',
+  standalone: true,
+  imports: [RouterOutlet],
+  templateUrl: './app.component.html',
+  styleUrl: './app.component.css'
+})
+
+//contenido de la pagina
+export class AppComponent {
+  title = 'spotify';
+
+//objeto nuevo
+car: carModel = {
+  marca: "ford",
+  modelo: "focus",
+  year: 2020
+}
+  //crear un array con una lista o muchos datos
+
+  listcar: Array <any> = [
+}
+
+// en ts una interface es una forma de definir la estructura de un objeto. 
+// interfaz establece qué propiedades y métodos debe tener un objeto para cumplir con ciertas expectativas, especificando su tipo de dato/accion
+interface carModel{
+  marca: string;
+  modelo: string;
+  year: number;
+}
